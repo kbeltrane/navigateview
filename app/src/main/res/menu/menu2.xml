@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item
+            android:id="@+id/navigation_subheader"
+            android:title="All Inboxes" >
+        <menu>
+
+        <item
+            android:id="@+id/menu_seccion_1"
+            android:icon="@drawable/iconinbox"
+            android:title="Primary" />
+
+        <item
+            android:id="@+id/menu_seccion_2"
+            android:icon="@drawable/iconsocial"
+            android:title="Social" />
+
+        <item
+            android:id="@+id/menu_seccion_3"
+            android:icon="@drawable/iconpro"
+            android:title="Promotions" />
+        </menu>
+        </item>
+
+    <!-- Submenú -->
+    <item android:id="@+id/sub2"
+        android:title="All labels">
+
+        <menu>
+
+            <item
+                android:id="@+id/menu_opcion_1"
+                android:icon="@drawable/iconstar"
+                android:title="Starred" />
+
+            <item
+                android:id="@+id/menu_opcion_2"
+                android:icon="@drawable/iconimportant"
+                android:title="Important" />
+
+            <item
+                android:id="@+id/menu_opcion_3"
+                android:icon="@drawable/iconsent"
+                android:title="Sent" />
+        </menu>
+    </item>
+</menu>
+
